@@ -49,7 +49,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             try {
                 await supabaseClient.auth.signInWithOAuth({
                     provider: 'twitch',
-                    options: {
+                    options:
+                    {
                         redirectTo: 'https://osecaadegas.github.io/95/',
                     }
                 });
@@ -254,10 +255,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             everything_here: "Everything you need is here",
             offers: "OFFERS",
             register_cashback: "Register and use the codes to get 15% cashback from me",
-            empire_percent: "Open a Discord Ticket",
-            empire_condition: "For a Gentle gift",
-            newcasino_percent: "1st deposit cashback up to 20€",
-            newcasino_condition: "No double accounts are covered",
+            sapphire_percent: "Open a Discord Ticket",
+            sapphire_condition: "For a Gentle gift",
+            oscarspin_percent: "1st deposit cashback up to 20€",
+            oscarspin_condition: "No double accounts are covered",
             infinity_percent: "+100% +200 Free Spins",
             infinity_condition: "+15% cashback for losses over 100€ monthly",
             buran_percent: "1st deposit cashback up to 20€",
@@ -269,10 +270,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             everything_here: "Tudo o que você precisa está aqui",
             offers: "OFERTAS",
             register_cashback: "Registe-se e use os códigos para receber 15% de cashback meu",
-            empire_percent: "Abra um ticket no Discord",
-            empire_condition: "Para um presente gentil",
-            newcasino_percent: "Cashback de até 20€ no 1º depósito",
-            newcasino_condition: "Contas duplicadas não são cobertas",
+            sapphire_percent: "Abra um ticket no Discord",
+            sapphire_condition: "Para um presente gentil",
+            oscarspin_percent: "Cashback de até 20€ no 1º depósito",
+            oscarspin_condition: "Contas duplicadas não são cobertas",
             infinity_percent: "+100% +200 Rodadas Grátis",
             infinity_condition: "+15% de cashback para perdas acima de 100€ por mês",
             buran_percent: "Cashback de até 20€ no 1º depósito",
